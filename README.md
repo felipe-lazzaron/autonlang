@@ -1,6 +1,7 @@
 # Compilador para AutonLang
 
-![image](https://github.com/felipe-lazzaron/autonlang/assets/78042819/44f2b35b-c9d5-45e6-8ea8-ed2ea3967c71)
+![image](https://github.com/felipe-lazzaron/autonlang/assets/78042819/3c87f592-d877-4ab7-aceb-50ba2fa209a4)
+
 
 ## Sobre a AutonLang
 
