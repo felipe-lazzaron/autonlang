@@ -1,5 +1,7 @@
 # Compilador para AutonLang
 
+![image](https://github.com/felipe-lazzaron/autonlang/assets/78042819/44f2b35b-c9d5-45e6-8ea8-ed2ea3967c71)
+
 ## Sobre a AutonLang
 
 A AutonLang é uma linguagem de programação projetada especificamente para facilitar a comunicação e operação segura entre veículos autônomos, incluindo carros, motos, drones e aviões. A motivação por trás dessa linguagem é criar um sistema universal que permita que esses veículos trafeguem e interajam de forma segura em qualquer ambiente terrestre ou aéreo, melhorando a coordenação e eficiência no trânsito e na logística global.
