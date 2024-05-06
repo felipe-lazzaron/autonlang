@@ -1,0 +1,48 @@
+// Teste de Inicialização de Veículo
+var status: string = "inativo";
+var velocidade: int = 0;
+var destino: gps;
+
+// Função para iniciar o veículo
+function iniciarVeiculo() {
+    status = "ativo";
+    print("Veículo ativado.");
+}
+
+// Função para definir destino
+function definirDestino(lat: float, long: float) {
+    destino.lat = lat;
+    destino.long = long;
+    print("Destino definido para: ", destino);
+}
+
+// Função para ajustar velocidade
+function ajustarVelocidade(v: int) {
+    if (v >= 0) {
+        velocidade = v;
+        print("Velocidade ajustada para: ", velocidade, " km/h");
+    } else {
+        print("Valor de velocidade inválido!");
+    }
+}
+
+// Função para parar o veículo
+function pararVeiculo() {
+    velocidade = 0;
+    print("Veículo parado.");
+}
+
+// Simulação de recebimento de dados de outro veículo
+receive(vehicleData: string, message: string) {
+    if (message == "obstaculo_proximo") {
+        print("Obstáculo detectado! Reduzindo velocidade.");
+        ajustarVelocidade(velocidade / 2);
+    }
+}
+
+// Main program
+iniciarVeiculo();
+definirDestino(35.6895, 139.6917); // Coordenadas para Tóquio
+ajustarVelocidade(60);
+send(status, "Veículo se aproximando do destino com velocidade de 60 km/h");
+pararVeiculo();
