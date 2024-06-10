@@ -2,9 +2,12 @@
 
 ![image](https://github.com/felipe-lazzaron/autonlang/assets/78042819/3c87f592-d877-4ab7-aceb-50ba2fa209a4)
 
-Compilador: my_compiler.cpp
+Compilador: pasta compilador-autolang
 
-Build do Compilador LLVM: https://drive.google.com/file/d/1b9y8k9Qslb9YpC0zKZ3jx-X-C5st8M-V/view?usp=sharing
+Para executar o exemplo:
+```
+py .\compilador-autolang\main.py
+```
 
 ## Sobre a AutonLang
 
