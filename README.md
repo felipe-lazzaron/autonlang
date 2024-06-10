@@ -2,7 +2,7 @@
 
 ![image](https://github.com/felipe-lazzaron/autonlang/assets/78042819/3c87f592-d877-4ab7-aceb-50ba2fa209a4)
 
-Compilador: pasta compilador-autlang
+Compilador: pasta compilador-autolang
 
 Para executar o exemplo:
 ```
