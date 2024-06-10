@@ -1,0 +1,18 @@
+var x: int = 10;
+var y: int = 20;
+var z: int;
+
+if (x < y) {
+    send(x, "x is less than y");
+    z = x + y;
+} else {
+    send(y, "y is less than or equal to x");
+    z = y - x;
+}
+
+while (z > 0) {
+    z = z - 1;
+    send(z, "Decrementing z");
+}
+
+receive(message, "Waiting for message");
