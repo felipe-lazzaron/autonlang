@@ -5,7 +5,7 @@ from interpreter.parser_ import Parser
 def main():
     import sys
     args = sys.argv[1:]
-    file_name = args[0] if args else 'exemplo.autolang'
+    file_name = args[0] if args else '.\compilador-autolang\exemplo.autolang'
 
     with open(file_name, 'r') as file:
         code = file.read()
